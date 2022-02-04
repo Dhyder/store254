@@ -104,9 +104,9 @@ WSGI_APPLICATION = 'store_centre.wsgi.application'
 
 #configure cloudinary
 cloudinary.config(
-    cloud_name = config('CD_NAME'),
-    api_key= config('CD_API'),
-    api_secret=config('CD_SECRET'),
+    cloud_name = "db6sb46fn",
+    api_key= "775561339175189",
+    api_secret="GWwqJD-92tp26xGIAsg3quLBr9o",
 )
 
 #GOOGLE API
@@ -114,7 +114,7 @@ GOOGLE_API_KEY= config('GOOGLE_API_KEY')
 BASE_COUNTRY='KE'
 #PAYPAL API
 PAYPAL_RECEIVER_EMAIL = 'youremail@mail.com'
-PAYPAL_TEST = True
+PAYPAL_TEST = False
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
