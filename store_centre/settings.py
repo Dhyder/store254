@@ -104,9 +104,9 @@ WSGI_APPLICATION = 'store_centre.wsgi.application'
 
 #configure cloudinary
 cloudinary.config(
-    cloud_name = "db6sb46fn",
-    api_key= "775561339175189",
-    api_secret="GWwqJD-92tp26xGIAsg3quLBr9o",
+    cloud_name = config('CD_NAME'),
+    api_key= config('CD_API'),
+    api_secret=config('CD_SECRET'),
 )
 
 #GOOGLE API
